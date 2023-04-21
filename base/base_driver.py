@@ -22,3 +22,4 @@ class BaseDriver:
         wait = WebDriverWait(self.driver, 10)
         list = wait.until(EC.element_to_be_clickable(type, locator))
         return list
+    #juani que gato sos, no te hagas el canchero
